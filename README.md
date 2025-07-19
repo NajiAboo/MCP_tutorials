@@ -27,3 +27,10 @@ docker pull ghcr.io/sooperset/mcp-atlassian:latest
             },
             "transport": "stdio",
         }
+
+### Steps to test the JIRA MCP server 
+  -> Run python weather.py
+  -> Run  uvicorn main:app --port 8080
+  -> Run streamlit run app.py
+
+        
